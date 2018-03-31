@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\新建文件夹\8.1\8.1\bin\Debug\8.1.exe
+C:\Users\Administrator\Desktop\新建文件夹\8.1\8.1\bin\Debug\8.1.pdb
+C:\Users\Administrator\Desktop\新建文件夹\8.1\8.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹\8.1\8.1\obj\x86\Debug\_8._1.Form1.resources
+C:\Users\Administrator\Desktop\新建文件夹\8.1\8.1\obj\x86\Debug\_8._1.Properties.Resources.resources
+C:\Users\Administrator\Desktop\新建文件夹\8.1\8.1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\新建文件夹\8.1\8.1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\新建文件夹\8.1\8.1\obj\x86\Debug\8.1.exe
+C:\Users\Administrator\Desktop\新建文件夹\8.1\8.1\obj\x86\Debug\8.1.pdb
+C:\Users\Issac\Documents\C#\第八单元\8.1\8.1\obj\x86\Debug\8.1.exe
+C:\Users\Issac\Documents\C#\第八单元\8.1\8.1\obj\x86\Debug\8.1.pdb
+C:\Users\Issac\Documents\C#\第八单元\8.1\8.1\bin\Debug\8.1.exe
+C:\Users\Issac\Documents\C#\第八单元\8.1\8.1\bin\Debug\8.1.pdb
+C:\Users\Issac\Documents\C#\第八单元\8.1\8.1\obj\x86\Debug\8.1.csprojResolveAssemblyReference.cache
+C:\Users\Issac\Documents\C#\第八单元\8.1\8.1\obj\x86\Debug\_8._1.Form1.resources
+C:\Users\Issac\Documents\C#\第八单元\8.1\8.1\obj\x86\Debug\_8._1.Properties.Resources.resources
+C:\Users\Issac\Documents\C#\第八单元\8.1\8.1\obj\x86\Debug\8.1.csproj.GenerateResource.Cache

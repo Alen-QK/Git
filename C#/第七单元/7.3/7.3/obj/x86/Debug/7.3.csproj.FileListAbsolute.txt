@@ -1,0 +1,8 @@
+C:\Users\Issac\Documents\C#\第七单元\7.3\7.3\bin\Debug\7.3.exe
+C:\Users\Issac\Documents\C#\第七单元\7.3\7.3\bin\Debug\7.3.pdb
+C:\Users\Issac\Documents\C#\第七单元\7.3\7.3\obj\x86\Debug\_7._3.Form1.resources
+C:\Users\Issac\Documents\C#\第七单元\7.3\7.3\obj\x86\Debug\_7._3.Properties.Resources.resources
+C:\Users\Issac\Documents\C#\第七单元\7.3\7.3\obj\x86\Debug\7.3.csproj.GenerateResource.Cache
+C:\Users\Issac\Documents\C#\第七单元\7.3\7.3\obj\x86\Debug\7.3.exe
+C:\Users\Issac\Documents\C#\第七单元\7.3\7.3\obj\x86\Debug\7.3.pdb
+C:\Users\Issac\Documents\C#\第七单元\7.3\7.3\obj\x86\Debug\7.3.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\Users\Issac\Documents\C#\第八单元\8.4\8.4\bin\Debug\8.4.exe
+C:\Users\Issac\Documents\C#\第八单元\8.4\8.4\bin\Debug\8.4.pdb
+C:\Users\Issac\Documents\C#\第八单元\8.4\8.4\obj\x86\Debug\_8._4.Form1.resources
+C:\Users\Issac\Documents\C#\第八单元\8.4\8.4\obj\x86\Debug\_8._4.Properties.Resources.resources
+C:\Users\Issac\Documents\C#\第八单元\8.4\8.4\obj\x86\Debug\8.4.csproj.GenerateResource.Cache
+C:\Users\Issac\Documents\C#\第八单元\8.4\8.4\obj\x86\Debug\8.4.exe
+C:\Users\Issac\Documents\C#\第八单元\8.4\8.4\obj\x86\Debug\8.4.pdb

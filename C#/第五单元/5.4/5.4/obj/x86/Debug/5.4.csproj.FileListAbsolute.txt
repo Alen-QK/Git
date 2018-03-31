@@ -1,0 +1,7 @@
+C:\Users\Issac\Documents\C#\第五单元\5.4\5.4\bin\Debug\5.4.exe
+C:\Users\Issac\Documents\C#\第五单元\5.4\5.4\bin\Debug\5.4.pdb
+C:\Users\Issac\Documents\C#\第五单元\5.4\5.4\obj\x86\Debug\_5._4.Form1.resources
+C:\Users\Issac\Documents\C#\第五单元\5.4\5.4\obj\x86\Debug\_5._4.Properties.Resources.resources
+C:\Users\Issac\Documents\C#\第五单元\5.4\5.4\obj\x86\Debug\5.4.csproj.GenerateResource.Cache
+C:\Users\Issac\Documents\C#\第五单元\5.4\5.4\obj\x86\Debug\5.4.exe
+C:\Users\Issac\Documents\C#\第五单元\5.4\5.4\obj\x86\Debug\5.4.pdb

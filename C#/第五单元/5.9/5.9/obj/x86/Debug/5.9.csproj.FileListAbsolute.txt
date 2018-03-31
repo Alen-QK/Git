@@ -1,0 +1,5 @@
+C:\Users\Issac\Documents\C#\第五单元\5.9\5.9\bin\Debug\5.9.exe
+C:\Users\Issac\Documents\C#\第五单元\5.9\5.9\bin\Debug\5.9.pdb
+C:\Users\Issac\Documents\C#\第五单元\5.9\5.9\obj\x86\Debug\5.9.exe
+C:\Users\Issac\Documents\C#\第五单元\5.9\5.9\obj\x86\Debug\5.9.pdb
+C:\Users\Issac\Documents\C#\第五单元\5.9\5.9\obj\x86\Debug\5.9.csprojResolveAssemblyReference.cache

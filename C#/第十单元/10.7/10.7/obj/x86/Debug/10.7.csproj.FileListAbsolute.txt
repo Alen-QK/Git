@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\10.7\10.7\bin\Debug\10.7.exe
+C:\Users\Administrator\Desktop\10.7\10.7\bin\Debug\10.7.pdb
+C:\Users\Administrator\Desktop\10.7\10.7\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\10.7\10.7\obj\x86\Debug\_10._7.Form1.resources
+C:\Users\Administrator\Desktop\10.7\10.7\obj\x86\Debug\_10._7.Properties.Resources.resources
+C:\Users\Administrator\Desktop\10.7\10.7\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\10.7\10.7\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\10.7\10.7\obj\x86\Debug\10.7.exe
+C:\Users\Administrator\Desktop\10.7\10.7\obj\x86\Debug\10.7.pdb
+C:\Users\Issac\Documents\C#\第十单元\10.7\10.7\obj\x86\Debug\10.7.exe
+C:\Users\Issac\Documents\C#\第十单元\10.7\10.7\obj\x86\Debug\10.7.pdb
+C:\Users\Issac\Documents\C#\第十单元\10.7\10.7\bin\Debug\10.7.exe
+C:\Users\Issac\Documents\C#\第十单元\10.7\10.7\bin\Debug\10.7.pdb
+C:\Users\Issac\Documents\C#\第十单元\10.7\10.7\obj\x86\Debug\_10._7.Form1.resources
+C:\Users\Issac\Documents\C#\第十单元\10.7\10.7\obj\x86\Debug\_10._7.Properties.Resources.resources
+C:\Users\Issac\Documents\C#\第十单元\10.7\10.7\obj\x86\Debug\10.7.csproj.GenerateResource.Cache
+C:\Users\Issac\Documents\C#\第十单元\10.7\10.7\obj\x86\Debug\10.7.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+C:\Users\Issac\Documents\C#\第四单元\4.4\4.4\bin\Debug\4.4.exe
+C:\Users\Issac\Documents\C#\第四单元\4.4\4.4\bin\Debug\4.4.pdb
+C:\Users\Issac\Documents\C#\第四单元\4.4\4.4\obj\x86\Debug\_4._4.Form1.resources
+C:\Users\Issac\Documents\C#\第四单元\4.4\4.4\obj\x86\Debug\_4._4.Properties.Resources.resources
+C:\Users\Issac\Documents\C#\第四单元\4.4\4.4\obj\x86\Debug\4.4.csproj.GenerateResource.Cache
+C:\Users\Issac\Documents\C#\第四单元\4.4\4.4\obj\x86\Debug\4.4.exe
+C:\Users\Issac\Documents\C#\第四单元\4.4\4.4\obj\x86\Debug\4.4.pdb
+C:\Users\Issac\Documents\C#\第四单元\4.4\4.4\obj\x86\Debug\4.4.csprojResolveAssemblyReference.cache

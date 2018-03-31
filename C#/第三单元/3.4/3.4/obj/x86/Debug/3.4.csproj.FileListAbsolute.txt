@@ -1,0 +1,8 @@
+C:\Users\Issac\Documents\C#\3.4\3.4\bin\Debug\3.4.exe
+C:\Users\Issac\Documents\C#\3.4\3.4\bin\Debug\3.4.pdb
+C:\Users\Issac\Documents\C#\3.4\3.4\obj\x86\Debug\3.4.exe
+C:\Users\Issac\Documents\C#\3.4\3.4\obj\x86\Debug\3.4.pdb
+C:\Users\Issac\Documents\C#\第三单元\3.4\3.4\obj\x86\Debug\3.4.exe
+C:\Users\Issac\Documents\C#\第三单元\3.4\3.4\obj\x86\Debug\3.4.pdb
+C:\Users\Issac\Documents\C#\第三单元\3.4\3.4\bin\Debug\3.4.exe
+C:\Users\Issac\Documents\C#\第三单元\3.4\3.4\bin\Debug\3.4.pdb

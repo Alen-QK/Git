@@ -1,0 +1,8 @@
+C:\Users\Issac\Documents\C#\3.7\3.7\bin\Debug\3.7.exe
+C:\Users\Issac\Documents\C#\3.7\3.7\bin\Debug\3.7.pdb
+C:\Users\Issac\Documents\C#\3.7\3.7\obj\x86\Debug\3.7.exe
+C:\Users\Issac\Documents\C#\3.7\3.7\obj\x86\Debug\3.7.pdb
+C:\Users\Issac\Documents\C#\第三单元\3.7\3.7\obj\x86\Debug\3.7.exe
+C:\Users\Issac\Documents\C#\第三单元\3.7\3.7\obj\x86\Debug\3.7.pdb
+C:\Users\Issac\Documents\C#\第三单元\3.7\3.7\bin\Debug\3.7.exe
+C:\Users\Issac\Documents\C#\第三单元\3.7\3.7\bin\Debug\3.7.pdb

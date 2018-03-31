@@ -1,0 +1,8 @@
+C:\Users\Issac\Documents\C#\jisuanqi\jisuanqi\bin\Debug\jisuanqi.exe
+C:\Users\Issac\Documents\C#\jisuanqi\jisuanqi\bin\Debug\jisuanqi.pdb
+C:\Users\Issac\Documents\C#\jisuanqi\jisuanqi\obj\x86\Debug\jisuanqi.Form1.resources
+C:\Users\Issac\Documents\C#\jisuanqi\jisuanqi\obj\x86\Debug\jisuanqi.Properties.Resources.resources
+C:\Users\Issac\Documents\C#\jisuanqi\jisuanqi\obj\x86\Debug\jisuanqi.csproj.GenerateResource.Cache
+C:\Users\Issac\Documents\C#\jisuanqi\jisuanqi\obj\x86\Debug\jisuanqi.exe
+C:\Users\Issac\Documents\C#\jisuanqi\jisuanqi\obj\x86\Debug\jisuanqi.pdb
+C:\Users\Issac\Documents\C#\jisuanqi\jisuanqi\obj\x86\Debug\jisuanqi.csprojResolveAssemblyReference.cache

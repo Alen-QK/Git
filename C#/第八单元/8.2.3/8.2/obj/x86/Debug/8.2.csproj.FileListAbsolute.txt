@@ -1,0 +1,16 @@
+C:\Users\Issac\Documents\C#\第八单元\8.2\8.2\bin\Debug\8.2.exe
+C:\Users\Issac\Documents\C#\第八单元\8.2\8.2\bin\Debug\8.2.pdb
+C:\Users\Issac\Documents\C#\第八单元\8.2\8.2\obj\x86\Debug\_8._2.Form1.resources
+C:\Users\Issac\Documents\C#\第八单元\8.2\8.2\obj\x86\Debug\_8._2.Properties.Resources.resources
+C:\Users\Issac\Documents\C#\第八单元\8.2\8.2\obj\x86\Debug\8.2.csproj.GenerateResource.Cache
+C:\Users\Issac\Documents\C#\第八单元\8.2\8.2\obj\x86\Debug\8.2.exe
+C:\Users\Issac\Documents\C#\第八单元\8.2\8.2\obj\x86\Debug\8.2.pdb
+C:\Users\Issac\Documents\C#\第八单元\8.2\8.2\obj\x86\Debug\8.2.csprojResolveAssemblyReference.cache
+C:\Users\Issac\Documents\C#\第八单元\8.2.3\8.2\obj\x86\Debug\8.2.exe
+C:\Users\Issac\Documents\C#\第八单元\8.2.3\8.2\obj\x86\Debug\8.2.pdb
+C:\Users\Issac\Documents\C#\第八单元\8.2.3\8.2\bin\Debug\8.2.exe
+C:\Users\Issac\Documents\C#\第八单元\8.2.3\8.2\bin\Debug\8.2.pdb
+C:\Users\Issac\Documents\C#\第八单元\8.2.3\8.2\obj\x86\Debug\8.2.csprojResolveAssemblyReference.cache
+C:\Users\Issac\Documents\C#\第八单元\8.2.3\8.2\obj\x86\Debug\_8._2.Form1.resources
+C:\Users\Issac\Documents\C#\第八单元\8.2.3\8.2\obj\x86\Debug\_8._2.Properties.Resources.resources
+C:\Users\Issac\Documents\C#\第八单元\8.2.3\8.2\obj\x86\Debug\8.2.csproj.GenerateResource.Cache

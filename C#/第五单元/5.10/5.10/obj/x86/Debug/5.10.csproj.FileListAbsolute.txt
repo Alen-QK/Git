@@ -1,0 +1,5 @@
+C:\Users\Issac\Documents\C#\第五单元\5.10\5.10\bin\Debug\5.10.exe
+C:\Users\Issac\Documents\C#\第五单元\5.10\5.10\bin\Debug\5.10.pdb
+C:\Users\Issac\Documents\C#\第五单元\5.10\5.10\obj\x86\Debug\5.10.exe
+C:\Users\Issac\Documents\C#\第五单元\5.10\5.10\obj\x86\Debug\5.10.pdb
+C:\Users\Issac\Documents\C#\第五单元\5.10\5.10\obj\x86\Debug\5.10.csprojResolveAssemblyReference.cache

@@ -1,0 +1,10 @@
+C:\Users\Issac\Documents\C#\2.1\2.1\obj\x86\Debug\_2._1.Form1.resources
+C:\Users\Issac\Documents\C#\2.1\2.1\obj\x86\Debug\_2._1.Properties.Resources.resources
+C:\Users\Issac\Documents\C#\2.1\2.1\obj\x86\Debug\2.1.csproj.GenerateResource.Cache
+C:\Users\Issac\Documents\C#\2.1\2.1\bin\Debug\2.1.exe
+C:\Users\Issac\Documents\C#\2.1\2.1\bin\Debug\2.1.pdb
+C:\Users\Issac\Documents\C#\2.1\2.1\obj\x86\Debug\2.1.exe
+C:\Users\Issac\Documents\C#\2.1\2.1\obj\x86\Debug\2.1.pdb
+C:\Users\Issac\Documents\C#\2.1\2.1\obj\x86\Debug\2.1.csprojResolveAssemblyReference.cache
+C:\Users\Issac\Documents\C#\第二单元\2.1\2.1\obj\x86\Debug\2.1.exe
+C:\Users\Issac\Documents\C#\第二单元\2.1\2.1\obj\x86\Debug\2.1.pdb

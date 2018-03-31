@@ -1,0 +1,10 @@
+C:\Users\Issac\Documents\C#\3.2\3.2\bin\Debug\3.2.exe
+C:\Users\Issac\Documents\C#\3.2\3.2\bin\Debug\3.2.pdb
+C:\Users\Issac\Documents\C#\3.2\3.2\obj\x86\Debug\3.2.exe
+C:\Users\Issac\Documents\C#\3.2\3.2\obj\x86\Debug\3.2.pdb
+C:\Users\Issac\Documents\C#\3.2\3.2\obj\x86\Debug\3.2.csprojResolveAssemblyReference.cache
+C:\Users\Issac\Documents\C#\第三单元\3.2\3.2\obj\x86\Debug\3.2.exe
+C:\Users\Issac\Documents\C#\第三单元\3.2\3.2\obj\x86\Debug\3.2.pdb
+C:\Users\Issac\Documents\C#\第三单元\3.2\3.2\bin\Debug\3.2.exe
+C:\Users\Issac\Documents\C#\第三单元\3.2\3.2\bin\Debug\3.2.pdb
+C:\Users\Issac\Documents\C#\第三单元\3.2\3.2\obj\x86\Debug\3.2.csprojResolveAssemblyReference.cache

@@ -1,0 +1,40 @@
+a=0;
+do
+            {
+                a = ((a + m) % list.Count == 0 ? list.Count : (a + m) % list.Count);
+                label5.Text += list[a - 1].ToString() + " ";
+                list.RemoveAt(a - 1);
+                a--;
+            }
+            while (list.Count > 1);
+            {
+                textBox3.Text = list[0].ToString();
+            }
+举例说明，假设开始m为2，list元素为4。
+第一次0+2与4取余为2，并不等于零，即false，a=(a + m) % list.Count),a=2
+此时list内0 1 2 3
+          1 2 3 4
+输出list[a-1],将2输出，并移除出list，其余向前
+此时list内0 1 2
+          1 3 4
+a--则a=1
+
+第二次1+2与3取余为0，并等于零，即true，a=list.Count，a=3
+此时list内0 1 2
+          1 3 4
+输出list[a-1],将4输出，并移除出list，其余向前
+此时list内0 1
+	  1 3
+a--则a=2
+
+第三次2+2与2取余为0，并等于零，即ture，a=list.Count，a=2
+此时list内0 1
+          1 3
+输出list[a-1],将3输出，并移除出list
+此时list内0
+	  1
+
+因为此时list.count=1已不满足while条件，故输出list[0]
+即为结果
+
+以此类推

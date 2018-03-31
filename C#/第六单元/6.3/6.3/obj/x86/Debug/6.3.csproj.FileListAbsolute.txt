@@ -1,0 +1,4 @@
+C:\Users\Issac\Documents\C#\第六单元\6.3\6.3\bin\Debug\6.3.exe
+C:\Users\Issac\Documents\C#\第六单元\6.3\6.3\bin\Debug\6.3.pdb
+C:\Users\Issac\Documents\C#\第六单元\6.3\6.3\obj\x86\Debug\6.3.exe
+C:\Users\Issac\Documents\C#\第六单元\6.3\6.3\obj\x86\Debug\6.3.pdb

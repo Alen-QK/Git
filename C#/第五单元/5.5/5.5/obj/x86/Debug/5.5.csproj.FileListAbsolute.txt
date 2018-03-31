@@ -1,0 +1,4 @@
+C:\Users\Issac\Documents\C#\第五单元\5.5\5.5\bin\Debug\5.5.exe
+C:\Users\Issac\Documents\C#\第五单元\5.5\5.5\bin\Debug\5.5.pdb
+C:\Users\Issac\Documents\C#\第五单元\5.5\5.5\obj\x86\Debug\5.5.exe
+C:\Users\Issac\Documents\C#\第五单元\5.5\5.5\obj\x86\Debug\5.5.pdb

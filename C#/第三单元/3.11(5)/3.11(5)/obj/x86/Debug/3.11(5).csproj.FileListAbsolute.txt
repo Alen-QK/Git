@@ -1,0 +1,8 @@
+C:\Users\Issac\Documents\C#\3.11(5)\3.11(5)\bin\Debug\3.11(5).exe
+C:\Users\Issac\Documents\C#\3.11(5)\3.11(5)\bin\Debug\3.11(5).pdb
+C:\Users\Issac\Documents\C#\3.11(5)\3.11(5)\obj\x86\Debug\3.11(5).exe
+C:\Users\Issac\Documents\C#\3.11(5)\3.11(5)\obj\x86\Debug\3.11(5).pdb
+C:\Users\Issac\Documents\C#\第三单元\3.11(5)\3.11(5)\obj\x86\Debug\3.11(5).exe
+C:\Users\Issac\Documents\C#\第三单元\3.11(5)\3.11(5)\obj\x86\Debug\3.11(5).pdb
+C:\Users\Issac\Documents\C#\第三单元\3.11(5)\3.11(5)\bin\Debug\3.11(5).exe
+C:\Users\Issac\Documents\C#\第三单元\3.11(5)\3.11(5)\bin\Debug\3.11(5).pdb

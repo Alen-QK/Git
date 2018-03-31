@@ -1,0 +1,11 @@
+C:\Users\Administrator\Desktop\EWai\EWai\bin\Debug\EWai.exe
+C:\Users\Administrator\Desktop\EWai\EWai\bin\Debug\EWai.pdb
+C:\Users\Administrator\Desktop\EWai\EWai\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\EWai\EWai\obj\x86\Debug\EWai.Form1.resources
+C:\Users\Administrator\Desktop\EWai\EWai\obj\x86\Debug\EWai.Properties.Resources.resources
+C:\Users\Administrator\Desktop\EWai\EWai\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\EWai\EWai\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\EWai\EWai\obj\x86\Debug\EWai.exe
+C:\Users\Administrator\Desktop\EWai\EWai\obj\x86\Debug\EWai.pdb
+C:\Users\Issac\Documents\C#\期末\1513490426 齐堃 附加题\EWai\EWai\obj\x86\Debug\EWai.exe
+C:\Users\Issac\Documents\C#\期末\1513490426 齐堃 附加题\EWai\EWai\obj\x86\Debug\EWai.pdb

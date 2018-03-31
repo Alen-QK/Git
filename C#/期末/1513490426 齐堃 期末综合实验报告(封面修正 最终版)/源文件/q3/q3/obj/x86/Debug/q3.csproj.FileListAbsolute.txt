@@ -1,0 +1,8 @@
+C:\Users\Issac\Documents\C#\期末\q3\q3\bin\Debug\q3.exe
+C:\Users\Issac\Documents\C#\期末\q3\q3\bin\Debug\q3.pdb
+C:\Users\Issac\Documents\C#\期末\q3\q3\obj\x86\Debug\q3.csprojResolveAssemblyReference.cache
+C:\Users\Issac\Documents\C#\期末\q3\q3\obj\x86\Debug\q3.Form1.resources
+C:\Users\Issac\Documents\C#\期末\q3\q3\obj\x86\Debug\q3.Properties.Resources.resources
+C:\Users\Issac\Documents\C#\期末\q3\q3\obj\x86\Debug\q3.csproj.GenerateResource.Cache
+C:\Users\Issac\Documents\C#\期末\q3\q3\obj\x86\Debug\q3.exe
+C:\Users\Issac\Documents\C#\期末\q3\q3\obj\x86\Debug\q3.pdb

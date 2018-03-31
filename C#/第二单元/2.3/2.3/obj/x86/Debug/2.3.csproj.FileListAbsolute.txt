@@ -1,0 +1,5 @@
+C:\Users\Issac\Documents\C#\2.3\2.3\bin\Debug\2.3.exe
+C:\Users\Issac\Documents\C#\2.3\2.3\bin\Debug\2.3.pdb
+C:\Users\Issac\Documents\C#\2.3\2.3\obj\x86\Debug\2.3.exe
+C:\Users\Issac\Documents\C#\2.3\2.3\obj\x86\Debug\2.3.pdb
+C:\Users\Issac\Documents\C#\2.3\2.3\obj\x86\Debug\2.3.csprojResolveAssemblyReference.cache

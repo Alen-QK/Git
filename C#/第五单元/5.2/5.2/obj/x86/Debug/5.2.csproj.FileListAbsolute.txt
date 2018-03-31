@@ -1,0 +1,8 @@
+C:\Users\Issac\Documents\C#\第五单元\5.2\5.2\bin\Debug\5.2.exe
+C:\Users\Issac\Documents\C#\第五单元\5.2\5.2\bin\Debug\5.2.pdb
+C:\Users\Issac\Documents\C#\第五单元\5.2\5.2\obj\x86\Debug\_5._2.Form1.resources
+C:\Users\Issac\Documents\C#\第五单元\5.2\5.2\obj\x86\Debug\_5._2.Properties.Resources.resources
+C:\Users\Issac\Documents\C#\第五单元\5.2\5.2\obj\x86\Debug\5.2.csproj.GenerateResource.Cache
+C:\Users\Issac\Documents\C#\第五单元\5.2\5.2\obj\x86\Debug\5.2.exe
+C:\Users\Issac\Documents\C#\第五单元\5.2\5.2\obj\x86\Debug\5.2.pdb
+C:\Users\Issac\Documents\C#\第五单元\5.2\5.2\obj\x86\Debug\5.2.csprojResolveAssemblyReference.cache
