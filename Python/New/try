@@ -1,0 +1,217 @@
+'''
+def log(func):
+    def wrapper(*args,**kw):
+        print('call %s():' % func.__name__)
+        return func(*args,**kw)
+    return wrapper
+
+@log
+def now():
+    print('2015-3-25')
+
+print(now())
+'''
+'''
+import functools
+def log(text):
+    def decorator(func):
+        @functools.wraps(func)
+        def wrapper(*args,**kw):
+            print('%s %s():' % (text,func.__name__))
+            return func(*args,**kw)
+        return wrapper
+    return decorator
+
+@log('haha')
+def now():
+    print('2018-3-19')
+
+print(now(),now.__name__)
+'''
+
+'''
+code=input('please input your password:')
+l=(code)
+p=[]
+move=int(input('please input shift amount:'))
+for i in l:
+    if i>='A' and i<='Z':
+        i=chr(((ord(i)-ord('A'))+move)%26+ord('A'))
+        p.append(i)
+
+    elif i>='a' and i<='z':
+        i=chr(((ord(i)-ord('a'))+move)%26+ord('a'))
+        p.append(i)
+recode="".join(p)
+print("The recode is: %s" % recode)
+
+l=(recode)
+p=[]
+for i in l:
+    if i>='A' and i<='Z':
+        i=chr(((ord(i)-ord('A'))+26-move)%26+ord('A'))
+        p.append(i)
+
+    elif i>='a' and i<='z':
+        i=chr(((ord(i)-ord('a'))+26-move)%26+ord('a'))
+        p.append(i)
+code="".join(p)
+print("The code is: %s" % code)
+'''
+
+'''
+from tkinter import *
+class Application(Frame):
+    def __init__(self, master=None):
+        Frame.__init__(self,master)
+        self.pack()
+        self.createWidgets()
+
+    def createWidgets(self):
+        self.hellolabel=Label(self, text='Hello, world!')
+        self.hellolabel.pack()
+        self.quitbutton=Button(self, text='Quit', command=self.quit)
+        self.quitbutton.pack()
+
+app=Application()
+app.master.title('Hello World')
+app.mainloop()
+'''
+
+# class Student(object):
+#     __slots__ = ('name','age')
+#
+#     def set_name(self,name):
+#         self.name=name
+#
+#     def get_name(self):
+#         print('%s' % self.name)
+#
+#     def set_score(self,score):
+#         self.score=score
+#
+# xiaoming=Student()
+# xiaoming.set_name('xiaoming')
+# #xiaoming.set_score(99)
+# xiaoming.get_name()
+
+# class Screen(object):
+#
+#     @property
+#     def width(self):
+#         return self._width
+#
+#     @width.setter
+#     def width(self,width):
+#         if width<0:
+#             print('error')
+#         else:
+#             self._width=width
+#
+#     @property
+#     def height(self):
+#         return self._height
+#
+#     @height.setter
+#     def height(self,height):
+#         if height<0:
+#             print('error')
+#         else:
+#             self._height=height
+#
+#     @property
+#     def resolution(self):
+#         print(self._width*self._height)
+#
+# r=Screen()
+# r.width=100
+# r.height=200
+# r.resolution
+
+# from tkinter import *
+# import tkinter.messagebox as messagebox
+#
+# class Application(Frame):
+#     def __init__(self, master=None):
+#         Frame.__init__(self, master)
+#         self.pack()
+#         self.creatWidgets()
+#
+#     def creatWidgets(self):
+#         self.nameInput = Entry(self)
+#         self.nameInput.pack()
+#         self.alterButton = Button(self, text='hello', command=self.hello)
+#         self.alterButton.pack()
+#
+#     def hello(self):
+#         name = self.nameInput.get() or 'world'
+#         messagebox.showinfo('message', 'hello, %s' % name)
+#
+# app=Application()
+# app.master.title('hello world1')
+# app.mainloop()
+
+# import socket
+#
+# s=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# s.connect(('www.sina.com.cn', 80))
+#
+# buffer=[]
+# while True:
+#     d=s.recv(1024)
+#     if d:
+#         buffer.append(d)
+#     else:
+#         break
+#
+# data = b''.join(buffer)
+# s.close()
+# print(buffer)
+
+# from email.mime.text import MIMEText
+# msg = MIMEText('hello, send by Python...', 'plain', 'utf-8')
+#
+# from_addr = input('From: ')
+# password = input('Password: ')
+# to_addr = input('To: ')
+# smtp_server = input('SMTP server: ')
+#
+# import smtplib
+# server = smtplib.SMTP(smtp_server, 25)
+# server.set_debuglevel(1)
+# server.login(from_addr, password)
+# server.sendmail(from_addr, [to_addr], msg.as_string())
+# server.quit()
+
+def dec(f):
+    def wrapper(m,n):
+        print("1111")
+        fun=f(m,n)
+        print("22222")
+        return fun
+    return wrapper
+
+@dec
+def b(m,n):
+    print("3333")
+    return m+n
+
+print(b(1,2))
+
+# def decorator_arg(arg1, arg2):
+#     def decorator(f):
+#         def wrapper(*args, **kw):
+#             print (arg1, "在函数 前 悄悄地干了很多事!!!")
+#             fun = f(*args, **kw)
+#             print (arg2, "在函数 后 悄悄地干了很多事!!!")
+#             return fun
+#         return wrapper
+#     return decorator
+#
+# #@decorator_arg("program1", "program2")
+# def fun10(x, y):
+#     print ("run main function!!!!!")
+#     return x + y
+#
+# print (fun10(1, 1))
+# #print (decorator_arg("program1", "program2")(fun10)(1, 1))

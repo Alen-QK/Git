@@ -1,0 +1,9 @@
+是对递归思想的一种体现
+这个代码分两部分，if和else两块
+if负责输出部分，也就是说else部分的递归调用至1才会被print出去，a和c都是实参
+else主要负责调用工作，而else部分也使得其实际过程分为了3块
+上面部分递归move将A,C,B赋给a,b,c得move（2,A,C,B），而move（2,A,C,B）又进入move，在else中分为3部分运行
+因2-1=1，所以将逐步输出结果，上半部按a=A,b=C,c=B来推导就会得出
+中间部分递归move将A,B,C赋给a,b,c得move(1,A,B,C),即a=A,b=B,c=C推导也可得出A->C
+下面部分递归move将B,A,C赋给a,b,c得move(2,B,A,C),也分为三部分分别递归得1就会输出，也可以用
+a=B,b=A,c=C推导得出
