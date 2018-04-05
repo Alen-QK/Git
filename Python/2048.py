@@ -137,4 +137,103 @@ class GameField(object):
         def draw_hor_separator():
             line = '+' + ('+------' * self.width + '+')[1:]
             separator = defaultdict(lambda: line)
-            
+            #如果draw_hor_separator中没有counter
+            if not hasattr(draw_hor_separator, "counter"):
+                draw_hor_separator.counter = 0
+            #先将draw_hor_separator.counter置0然后，用separator调用它，创建一个defaultdict,然后用cast函数来绘制
+            cast(separator[draw_hor_separator.counter])
+            #draw_hor_separator.counter自增
+            draw_hor_separator.counter += 1
+        
+        def draw_row(row):
+            cast(''.join('|{: ^5}'.format(num) if num > 0 else '|      ' for num in row) + '|')
+
+        #编写控制界面的相关逻辑
+        screen.clear()
+        cast('SCORE: '+ str(self.score))
+        if 0 != self.highscore:
+            cast('HIGHSCORE: ' + str(self.highscore))
+        for row in self.field:
+            draw_hor_separator()
+            draw_row(row)
+        draw_hor_separator()
+        if self.is_win():
+            cast(win_string)
+        else:
+            if self.is_gameover():
+                cast(gameover_string)
+            else:
+                cast(help_string1)
+        cast(help_string2)
+    
+    def spawn(self):
+        #为2048每次行动创建随机的一个2或4的值
+        new_element = 4 if randrange(100) > 89 else 2
+        #从矩阵中当前值为0的坐标内随机挑选一个作为新值的位置
+        (i,j) = choice([(i,j) for i in range(self.width) for j in range(self.height) if self.field[i][j] == 0])
+        self.field[i][j] = new_element
+
+    def move_is_possible(self, direction):
+        def row_is_left_movable(row):
+            def change(i):
+                if row[i] == 0 and row [i+1] != 0:
+                    return True
+                if row[i] != 0 and row [i+1] == row[i]:
+                    return True
+                return False
+            return any(change(i) for i in range(len(row) - 1))
+        check = {}
+        check['Left'] = lambda field: any(row_is_left_movable(row) for row in field)
+        check['Right'] = lambda field: check['Left'](invert(field))
+        check['Up'] = lambda field: check['Left'](transpost(field))
+        check['Down'] = lambda field: check['Right'](transpost(field))
+        
+        if direction in check:
+            return check[direction](self.field)
+        else:
+            return False
+
+def main(stdscr):
+    def init():
+        #重置游戏
+        game_field.reset()
+        return 'Game'
+
+    def not_game(state):
+        #绘制游戏结束或胜利时的界面
+        game_field.draw(stdscr)
+        #获取用户输入的指令，判断重启还是结束
+        action = get_user_action(stdscr)
+        #保持停留在当前状态，无指令就会在当前界面循环
+        responses = defaultdict(lambda: state)
+        responses['Restart'],responses['Exit'] = 'Init', 'Exit'
+        return responses[action]
+        
+    def game():
+        #绘制当前游戏状态
+        game_field.draw(stdscr)
+        #读取用户输入的指令
+        action = get_user_action(stdscr)
+
+        if action == 'Restart':
+            return 'Init'
+        if action == 'Exit':
+            return 'Exit'
+        if game_field.move(action):
+            if game_field.is_win():
+                return 'Win'
+            if game_field.is_gameover():
+                return 'Gameover'
+        return 'Game'
+    
+    state_actions = {'Init': init, 'Win': lambda: not_game('Win'), 'Gameover': lambda: not_game('Gameover'), 'Game': game}
+
+    curses.use_default_colors()
+
+    #设定获胜值为32
+    game_field = GameField(win=32)
+    state = 'Init'
+    while state != 'Exit':
+        state = state_actions[state]()
+
+curses.wrapper(main)
