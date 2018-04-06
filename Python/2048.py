@@ -93,6 +93,7 @@ class GameField(object):
 #             new_row.append(row[i])
 # assert len(new_row) == len(row)
 # print(new_row)    
+
             #先挤到一起再合并再挤到一起
             return tighten(merge(tighten(row)))
         
