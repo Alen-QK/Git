@@ -11,7 +11,7 @@ def validateIp(ip, port):
     opener = urllib.request.build_opener(proxy_handler)
     urllib.request.install_opener(opener)
 
-    validateUrl = 'https://www.baidu.com'
+    validateUrl = 'https://music.douban.com/top250'
     req = urllib.request.Request(url= validateUrl, headers= headers)
     time.sleep(4)
 
@@ -22,7 +22,7 @@ def validateIp(ip, port):
         if content:
             print('is ok')
             with open('data2.txt', 'a') as wd:
-                wd.write(ip + u':' + port + u'\n')
+                wd.write(u"'" + ip + u':' + port + u"'" + u'\n')
         else:
             print('is not ok')
     except urllib.request.URLError as e:

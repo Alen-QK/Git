@@ -20,7 +20,7 @@ class xiciSpider(scrapy.Spider):
         with open('data.txt',"a") as wd:
             for index, tdinfo in enumerate(lists):
                 if index != 0:
-                    ipline = tdinfo.xpath('td[2]/text()').extract_first() +":"+tdinfo.xpath('td[3]/text()').extract_first()
+                    ipline = tdinfo.xpath('td[2]/text()').extract_first() + ":" + tdinfo.xpath('td[3]/text()').extract_first() + tdinfo.xpath('td[6]/text()').extract_first()
                     print(ipline)
                     wd.write(ipline+u"\n")
                     # xiciI = CustomproxyItem()

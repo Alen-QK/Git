@@ -18,3 +18,8 @@ class DoubanMusic_spider(scrapy.Spider):
             item['music_rating'] = musicls.xpath(".//div[@class='star clearfix']/span[@class='rating_nums']/text()").extract_first()
             item['music_num'] = musicls.xpath(".//div[@class='star clearfix']/span[@class='pl']/text()").extract_first()
             yield item
+
+        next_page = response.css('span.next a::attr(href)').extract_first()
+        if next_page is not None:
+            next_page = response.urljoin(next_page)
+            yield scrapy.Request(next_page, callback= self.parse)
