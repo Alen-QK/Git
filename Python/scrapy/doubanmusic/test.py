@@ -84,16 +84,16 @@ for info in load_dict:
 # pie.render()
 
 # 评分分布
-# attr = []
-# newattr = []
-# for info in musiclist:
-#     attr.append(info['rate'])
-# a = Counter(attr)
-# mrate = []
-# for i in range(0,len(a)):
-#     mrate.append(sorted(a.most_common())[i][1])
-#     newattr.append(sorted(a.most_common())[i][0])
-# line = Line('评分分布')
-# line.add('评分', newattr, mrate, is_smooth=True)
-# line.render(path='评分分类.html')
+attr = []
+newattr = []
+for info in musiclist:
+    attr.append(info['rate'])
+a = Counter(attr)
+mrate = []
+for i in range(0,len(a)):
+    mrate.append(sorted(a.most_common())[i][1])
+    newattr.append(sorted(a.most_common()[i][0])
+line = Line('评分分布')
+line.add('评分', newattr, mrate, is_smooth=True)
+line.render(path='评分分类.html')
 
