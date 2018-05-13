@@ -1,4 +1,4 @@
-from flask import render_template, session, redirect, url_for, current_app
+from flask import render_template, session, redirect, url_for, current_app, abort
 from datetime import datetime
 
 from . import main
@@ -23,3 +23,12 @@ def index():
         session['name'] = form.name.data
         return redirect(url_for('.index'))
     return render_template('index.html', form=form, name=session.get('name'), known=session.get('known', False), current_time=datetime.utcnow())
+
+@main.route('/user/<username>')
+def user(username):
+#     user = User.quert.filter_by(username=username).first()
+#     if user is None:
+#         abort(404)
+#     return render_template('user.html', user=user)
+    user = User.query.filter_by(username=username).first_or_404()
+    return render_template('user.html', user=user)

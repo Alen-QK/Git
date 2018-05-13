@@ -1,0 +1,3 @@
+set FLASKY_ADMIN=solaire_sogo@sina.com
+set MAIL_USERNAME=solaire_sogo@sina.com
+set MAIL_PASSWORD=sina687610
